@@ -4,6 +4,7 @@ class Hero extends Sprite{
     super();
     this.direction = 1;
     this.state = "standing";
+    this.velocityY = 0;
   }
   
   update(){
