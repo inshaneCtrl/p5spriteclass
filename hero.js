@@ -6,12 +6,15 @@ class Hero extends Sprite{
     this.state = "standing";
     this.velocityY = 0;
   }
+  //End of constructor
   
   update(){
   
   }
+  //End of update
   
   isGrounded() {
     
   }
+  //End of isGrounded
 }
